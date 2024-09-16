@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "gabrindos",
+    "slug": "gabrindos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      ["expo-camera",
+      {
+        "cameraPermission": "Permite $(gabrindos) accessar a sua câmera",
+        "microphonePermission": "Permita $(gabrindos) acessar seu microfone",
+        "recordAudioAndroid": true
+      }
+    ],
+    [
+      "expo-media-library",
+      {
+        "photosPermission": "Permita $(gabrindos) acessar suas fotos.",
+        "savePhotosPermission": "Permita $(gabrindos) salvar suas fotos.",
+        "isAccessMediaLocationEnabled": true
+      }
+    ],
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "O aplicativo acessa suas fotos para que você possa compartilhá-las com seus amigos."
+      }
+    ]
+  ]
+  }
+}
