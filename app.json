@@ -39,6 +39,13 @@
         "isAccessMediaLocationEnabled": true
       }
     ],
+    [ 
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "Permita $(PRODUCT_NAME) acessar sua localização"
+      }
+
+    ],
     [
       "expo-image-picker",
       {
